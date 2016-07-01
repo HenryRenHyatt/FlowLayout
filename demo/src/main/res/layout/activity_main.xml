@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.henry.henrydemos.MainActivity">
+
+    <com.example.henry.library.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="0dp">
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Android" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Java" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test2" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Python" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="iOS" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Design" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="UI/UX" />
+
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="服务器" />
+
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="产品运营" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="软件测试" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Android" />
+
+    </com.example.henry.library.FlowLayout>
+</RelativeLayout>
