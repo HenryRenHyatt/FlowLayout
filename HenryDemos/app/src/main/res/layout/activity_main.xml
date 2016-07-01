@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.henry.henrydemos.MainActivity">
+
+    <com.example.henry.henrydemos.widget.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layoutDirection="rtl"
+        android:padding="30dp">
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Android" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Java" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Python" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="iOS" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="Design" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="UI/UX" />
+
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="服务器" />
+
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="产品运营" />
+
+        <TextView
+            style="@style/FlowViewStyle"
+            android:text="软件测试" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Android" />
+
+    </com.example.henry.henrydemos.widget.FlowLayout>
+</RelativeLayout>
